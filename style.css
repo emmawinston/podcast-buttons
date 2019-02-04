@@ -1,0 +1,61 @@
+.btn {
+  box-sizing: border-box;
+  display: inline-block;
+  text-align: left;
+  white-space: nowrap;
+  text-decoration: none;
+  vertical-align: middle;
+  border: 1px solid #ddd;
+  padding: 4px 8px;
+  margin: 5px auto;
+  border-radius: 8px;
+  color: #fff;
+  fill: #fff;
+  background: #000;
+  line-height: 1em;
+  min-width: 90px;
+  height: 46px;
+  font-family: 'Lato';
+}
+
+.btn-icon,
+.btn-text,
+.btn-storename {
+  display: inline-block;
+  vertical-align: top;
+}
+.btn-icon {
+  width: 30px;
+  height: 30px;
+  margin-right: 5px;
+  margin-top: 2px;
+}
+
+.btn-text {
+  letter-spacing: 0.08em;
+  margin-top: -0.1em;
+  font-size: 12px;
+}
+.btn-storename {
+  display: block;
+  margin-left: 38px;
+  margin-top: -17px;
+  font-size: 20px;
+  letter-spacing: -0.03em;
+}
+
+.btn-android .btn-text {
+    font-size: 9px;
+}
+
+.btn-android .btn-icon {
+    margin-top: 2px;
+}
+
+.btn-rss .btn-icon {
+    margin-top: 6px;
+}
+
+.btn-android .btn-storename {
+    font-size: 18px;
+}
